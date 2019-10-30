@@ -10,9 +10,9 @@ steps:
 - task: CmdLine@2
   inputs:
     script: |
-      apt-get update
-      apt install
-    workingDirectory: '/var/public/'
+      sudo apt-get update
+      sudo apt install
+    workingDirectory: '/home'
 - script: |
     echo Add other tasks to build, test, and deploy your project.
     echo See https://aka.ms/yaml
