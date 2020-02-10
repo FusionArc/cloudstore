@@ -1,4 +1,4 @@
-source from .base import AUTHENTICATION_BACKENDS, BASE_DIR, config, INSTALLED_APPS, MIDDLEWARE
+from .base import AUTHENTICATION_BACKENDS, BASE_DIR, config, INSTALLED_APPS, MIDDLEWARE
 
 DEBUG = config('DEBUG', cast=bool)
 ALLOWED_HOSTS = ['34.77.185.103', 'cloudshare.space', 'localhost']

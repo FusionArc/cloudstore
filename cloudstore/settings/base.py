@@ -1,11 +1,9 @@
 import os
 
-from decouple import config
-
 BASE_DIR = os.path.dirname(os.path.dirname(
     os.path.dirname(os.path.abspath(__file__))))
 
-SECRET_KEY = config('SECRET_KEY')
+SECRET_KEY = 'SECRETKEY'
 
 INSTALLED_APPS = [
     'django.contrib.admin',
@@ -20,7 +18,6 @@ INSTALLED_APPS = [
     'allauth.socialaccount',
     'crispy_forms',
     'django_countries',
-    
     'core'
 ]
 
