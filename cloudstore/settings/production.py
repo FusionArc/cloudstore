@@ -1,7 +1,7 @@
-from .base import AUTHENTICATION_BACKENDS, BASE_DIR, config, INSTALLED_APPS, MIDDLEWARE
+from .base import *
 
 DEBUG = config('DEBUG', cast=bool)
-ALLOWED_HOSTS = ['34.77.185.103', 'cloudshare.space', 'localhost']
+ALLOWED_HOSTS = ['35.234.134.224', 'cloudshare.space', 'localhost']
 
 AUTH_PASSWORD_VALIDATORS = [
     {'NAME': 'django.contrib.auth.password_validation.UserAttributeSimilarityValidator'},
