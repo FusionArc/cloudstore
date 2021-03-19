@@ -16,7 +16,7 @@ jobs:
     - name: Install dependencies
       run: |
         mkdir CloudSrc
-        python3 -m virtualenv venv
+        python3 -m venv venv
         cd CloudSrc
         mkdir src
         cd .. && mkdir ./Repo/src
